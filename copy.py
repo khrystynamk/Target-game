@@ -7,7 +7,7 @@ from typing import List
 def generate_grid() -> List[List[str]]:
     """
     Generates list of lists of letters - i.e. grid for the game.
-    e.g. [['I', 'G', 'E'], ['P', 'I', 'S'], ['W', 'M', 'G']]
+    e.g. [['D', 'G', 'E'], ['P', 'I', 'S'], ['W', 'M', 'G']]
     """
     grid = []
     letters = string.ascii_uppercase
