@@ -19,7 +19,7 @@ def generate_grid() -> List[List[str]]:
 
 def check_word_suitable(word: str, central_letter: str, letters: List[str]) -> bool:
     """
-    Checks the word according to the rules
+    Checks the word according to the rules.
     """
     is_word_suitable = True
     if len(word) in range(4, 10) and central_letter in word:
